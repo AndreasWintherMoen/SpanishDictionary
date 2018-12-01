@@ -19,6 +19,10 @@ def AddDictionaryToFile(dictionary):
         for englishWord in wordEntry[0]:
             line += (englishWord + ",")
         line = line[:len(line)-1]
+        line += "\t"
+        for spanishWord in wordEntry[1]:
+            line += (spanishWord + ",")
+        line = line[:len(line)-1]
         line += "\n"
         file.write(line)
     file.close()
