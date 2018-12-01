@@ -1,5 +1,7 @@
+FILE_NAME = "dictionary.txt"
+
 def GetDictionaryFromFile():
-    file = open("dictionary.txt", "r")
+    file = open(FILE_NAME, "r")
     dictionary = []
     for line in file:
         words = line.split("\t")
@@ -11,7 +13,7 @@ def GetDictionaryFromFile():
     return dictionary
 
 def AddDictionaryToFile(dictionary):
-    file = open("dictionary.txt", "w")
+    file = open(FILE_NAME, "w")
     for wordEntry in dictionary:
         line = ""
         for englishWord in wordEntry[0]:
@@ -22,7 +24,7 @@ def AddDictionaryToFile(dictionary):
     file.close()
 
 def AddWordEntry(english, spanish):
-    file = open("dictionary.txt", "a")
+    file = open(FILE_NAME, "a")
     newLine = english.lower() + "\t" + spanish.lower() + "\n"
     file.write(newLine)
     file.close()
