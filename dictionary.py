@@ -23,6 +23,22 @@ def AddDictionaryToFile(dictionary):
         file.write(line)
     file.close()
 
+def WordExistsInDictionary(word, language):
+    dictionary = GetDictionaryFromFile()
+    if (language.lower() == "english"):
+        for line in dictionary:
+            for dicWord in line[0]:
+                if dicWord == word:
+                    return True
+    elif (language.lower() == "spanish"):
+        for line in dictionary:
+            for dicWord in line[1]:
+                if dicWord == word:
+                    return True
+    else:
+        raise NameError("Illegal language name in WordExistsInDictionary(word, language)")
+    return False
+
 def AddWordEntry(english, spanish):
     file = open(FILE_NAME, "a")
     newLine = english.lower() + "\t" + spanish.lower() + "\n"
