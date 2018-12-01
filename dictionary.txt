@@ -1,0 +1,11 @@
+chair	silla
+jail	cárcel
+bed	cama
+lamp	lampara
+airport	aeropuerto
+car	coche
+to laugh	reír
+ankle	tobillo
+peace	paz
+pencil	lapiz
+frozen	congelado
