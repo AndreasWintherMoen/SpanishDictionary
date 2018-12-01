@@ -40,10 +40,46 @@ def WordExistsInDictionary(word, language):
     return False
 
 def AddWordEntry(english, spanish):
-    file = open(FILE_NAME, "a")
-    newLine = english.lower() + "\t" + spanish.lower() + "\n"
-    file.write(newLine)
-    file.close()
+    englishExists = WordExistsInDictionary(english, "english")
+    spanishExists = WordExistsInDictionary(spanish, "spanish")
+    newLine = ""
+    if (englishExists and spanishExists):
+        # Exact same word entry already exists, so we just return
+        print(english + "/" + spanish + " already exists in dictionary")
+        return
+    elif (englishExists):
+        # The english word already exists, but with another translation. So, we want to add a new translation
+        dictionary = GetDictionaryFromFile()
+        found = False
+        for line in dictionary:
+            if (found): break
+            for word in line[0]:
+                if word == english:
+                    found = True
+                    line[1].append(spanish)
+                    break
+        AddDictionaryToFile(dictionary)
+        print(english + " already exists in dictionary. " + spanish + " was added as an alternative translation")
+    elif (spanishExists):
+        # Spanish exists already, but not English. 
+        dictionary = GetDictionaryFromFile()
+        found = False
+        for line in dictionary:
+            if (found): break
+            for word in line[1]:
+                if word == spanish:
+                    line[1].append(english)
+                    found = True
+                    break
+        AddDictionaryToFile(dictionary)
+        print(spanish + " already exists in dictionary. " + english + " was added as an alternative translation")
+    else:
+        # Word entry is entirely new, so we just append directly to the file
+        file = open(FILE_NAME, "a")
+        newLine = english.lower() + "\t" + spanish.lower() + "\n"
+        file.write(newLine)
+        file.close()
+        print(english + "/" + spanish + " successfully added to dictionary")
 
 def GetSpanishWord(englishWord):
     dictionary = GetDictionaryFromFile()
