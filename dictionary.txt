@@ -61,3 +61,16 @@ suitcase	maleta
 to decide	decidir
 noise	ruido
 to digest	digerir
+to show	mostrar
+reason	razón
+to include	incluir
+neighbour	vecino,vecina
+jungle	selva
+lake	lago
+to discover	descubrir
+fact	hecho
+to cook	cocinar
+food	comida,alimento
+to interrupt	interrumpir
+ship	barco
+population	población
