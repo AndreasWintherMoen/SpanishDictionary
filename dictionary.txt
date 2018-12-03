@@ -31,7 +31,7 @@ unknown	desconocida
 to understand	entender
 oil	aceite
 wall	pared
-forget	olvidar
+forget	olvidar,to forget
 neck	cuello
 avoid	evitar
 cute,nice	lindo,linda
@@ -45,7 +45,7 @@ sentence	oración
 kiss	beso
 to draw	dibujar
 to check	comprobar
-to count	contar
+to count	contar,to tell
 to remember	recordar
 border	frontera
 background	fondo
@@ -74,3 +74,22 @@ food	comida,alimento
 to interrupt	interrumpir
 ship	barco
 population	población
+proud	orgulloso,orgullosa
+to increase	aumentar
+to lower	rebajar
+season	temporada
+previous	anterior
+accomodation	alojamiento
+approximately	aproximadamente
+location	ubicación
+treasure	tesoro
+after	después
+building	edificio
+forest	bosque
+wood	madera
+worth it	vale la pena
+to enjoy	disfrutar
+neighbourhood	barrio
+through	a través de,a través
+mountain range	cordillera
+lover	amante
