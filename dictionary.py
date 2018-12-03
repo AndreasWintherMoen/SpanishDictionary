@@ -113,11 +113,15 @@ def RunTests(numTests):
     import random
     dictionary = GetDictionaryFromFile()
     random.shuffle(dictionary)
-    for i in range(numTests):
+    if (numTests == 0):
+        print("The program will continue indefinitely. Type 'forcequit' to exit")
+    i = 0
+    while (i < numTests or numTests == 0):
         line = dictionary[i % (len(dictionary) - 1)]
         englishWords = line[0]
         spanishWords = line[1]
         language = random.randint(0,1)
+        i += 1
         
         userAnswer = ""
         correctAnswers = []
@@ -129,6 +133,8 @@ def RunTests(numTests):
             word = spanishWords[random.randint(0, len(spanishWords) - 1)]
             userAnswer = input("What is the English word for " + word + "? ")
             correctAnswers = englishWords
+        if (userAnswer.lower() == "forcequit"):
+            return
         if (ValidateAnswer(correctAnswers, userAnswer)):
             print("Correct!")
         else:
@@ -145,7 +151,7 @@ def AskUserAction():
     if (answer == "x"):
         return False
     elif (answer == "t"):
-        num = int(input("How many tests would you like to run? "))
+        num = int(input("How many tests would you like to run (0 for infinite)? "))
         RunTests(num)
     elif (answer == "a"):
         english = input("English word: ")
