@@ -1,5 +1,7 @@
+FILE_NAME = "dictionary.txt"
+
 def GetDictionaryFromFile():
-    file = open("dictionary.txt", "r")
+    file = open(FILE_NAME, "r")
     dictionary = []
     for line in file:
         words = line.split("\t")
@@ -11,21 +13,77 @@ def GetDictionaryFromFile():
     return dictionary
 
 def AddDictionaryToFile(dictionary):
-    file = open("dictionary.txt", "w")
+    file = open(FILE_NAME, "w")
     for wordEntry in dictionary:
         line = ""
         for englishWord in wordEntry[0]:
             line += (englishWord + ",")
         line = line[:len(line)-1]
+        line += "\t"
+        for spanishWord in wordEntry[1]:
+            line += (spanishWord + ",")
+        line = line[:len(line)-1]
         line += "\n"
         file.write(line)
     file.close()
 
+def WordExistsInDictionary(word, language):
+    dictionary = GetDictionaryFromFile()
+    if (language.lower() == "english"):
+        for line in dictionary:
+            for dicWord in line[0]:
+                if dicWord == word:
+                    return True
+    elif (language.lower() == "spanish"):
+        for line in dictionary:
+            for dicWord in line[1]:
+                if dicWord == word:
+                    return True
+    else:
+        raise NameError("Illegal language name in WordExistsInDictionary(word, language)")
+    return False
+
 def AddWordEntry(english, spanish):
-    file = open("dictionary.txt", "a")
-    newLine = english.lower() + "\t" + spanish.lower() + "\n"
-    file.write(newLine)
-    file.close()
+    englishExists = WordExistsInDictionary(english, "english")
+    spanishExists = WordExistsInDictionary(spanish, "spanish")
+    newLine = ""
+    if (englishExists and spanishExists):
+        # Exact same word entry already exists, so we just return
+        print(english + "/" + spanish + " already exists in dictionary")
+        return
+    elif (englishExists):
+        # The english word already exists, but with another translation. So, we want to add a new translation
+        dictionary = GetDictionaryFromFile()
+        found = False
+        for line in dictionary:
+            if (found): break
+            for word in line[0]:
+                if word == english:
+                    found = True
+                    line[1].append(spanish)
+                    break
+        AddDictionaryToFile(dictionary)
+        print(english + " already exists in dictionary. " + spanish + " was added as an alternative translation")
+    elif (spanishExists):
+        # Spanish exists already, but not English. 
+        dictionary = GetDictionaryFromFile()
+        found = False
+        for line in dictionary:
+            if (found): break
+            for word in line[1]:
+                if word == spanish:
+                    line[1].append(english)
+                    found = True
+                    break
+        AddDictionaryToFile(dictionary)
+        print(spanish + " already exists in dictionary. " + english + " was added as an alternative translation")
+    else:
+        # Word entry is entirely new, so we just append directly to the file
+        file = open(FILE_NAME, "a")
+        newLine = english.lower() + "\t" + spanish.lower() + "\n"
+        file.write(newLine)
+        file.close()
+        print(english + "/" + spanish + " successfully added to dictionary")
 
 def GetSpanishWord(englishWord):
     dictionary = GetDictionaryFromFile()
@@ -55,11 +113,15 @@ def RunTests(numTests):
     import random
     dictionary = GetDictionaryFromFile()
     random.shuffle(dictionary)
-    for i in range(numTests):
+    if (numTests == 0):
+        print("The program will continue indefinitely. Type 'forcequit' to exit")
+    i = 0
+    while (i < numTests or numTests == 0):
         line = dictionary[i % (len(dictionary) - 1)]
         englishWords = line[0]
         spanishWords = line[1]
         language = random.randint(0,1)
+        i += 1
         
         userAnswer = ""
         correctAnswers = []
@@ -71,6 +133,8 @@ def RunTests(numTests):
             word = spanishWords[random.randint(0, len(spanishWords) - 1)]
             userAnswer = input("What is the English word for " + word + "? ")
             correctAnswers = englishWords
+        if (userAnswer.lower() == "forcequit"):
+            return
         if (ValidateAnswer(correctAnswers, userAnswer)):
             print("Correct!")
         else:
@@ -87,7 +151,7 @@ def AskUserAction():
     if (answer == "x"):
         return False
     elif (answer == "t"):
-        num = int(input("How many tests would you like to run? "))
+        num = int(input("How many tests would you like to run (0 for infinite)? "))
         RunTests(num)
     elif (answer == "a"):
         english = input("English word: ")

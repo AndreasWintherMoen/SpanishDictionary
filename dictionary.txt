@@ -1,11 +1,95 @@
 chair	silla
 jail	cárcel
 bed	cama
-lamp	lampara
+lamp	lámpara
 airport	aeropuerto
 car	coche
 to laugh	reír
 ankle	tobillo
 peace	paz
-pencil	lapiz
+pencil	lápiz
 frozen	congelado
+to try	probar,tratar
+elephant	elefante
+bag	bolso
+pants	pantalones
+to smoke	fumar
+cashier	cajero,cajera
+lawyer	abogado
+interview	entrevista
+age	edad
+grandchild	nieto,nieta
+company	empresa
+nephew	sobrino
+shoulder	hombro
+thin	delgado,delgada
+to note,to write down	anotar
+to underline	subrayar
+partner	pareja
+landscape	paisaje
+unknown	desconocida
+to understand	entender
+oil	aceite
+wall	pared
+forget	olvidar,to forget
+neck	cuello
+avoid	evitar
+cute,nice	lindo,linda
+bored	aburrido,aburrida
+whatever	como sea
+to follow	seguir
+blood	sangre
+both	ambos
+shy	tímido,tímida
+sentence	oración
+kiss	beso
+to draw	dibujar
+to check	comprobar
+to count	contar,to tell
+to remember	recordar
+border	frontera
+background	fondo
+step	paso
+tiny	chiquito,chiquita
+quite	bastante
+market	mercado
+to sell	vender
+pleasure	placer
+to cross	cruzar
+to rent	alquilar
+suitcase	maleta
+to decide	decidir
+noise	ruido
+to digest	digerir
+to show	mostrar
+reason	razón
+to include	incluir
+neighbour	vecino,vecina
+jungle	selva
+lake	lago
+to discover	descubrir
+fact	hecho
+to cook	cocinar
+food	comida,alimento
+to interrupt	interrumpir
+ship	barco
+population	población
+proud	orgulloso,orgullosa
+to increase	aumentar
+to lower	rebajar
+season	temporada
+previous	anterior
+accomodation	alojamiento
+approximately	aproximadamente
+location	ubicación
+treasure	tesoro
+after	después
+building	edificio
+forest	bosque
+wood	madera
+worth it	vale la pena
+to enjoy	disfrutar
+neighbourhood	barrio
+through	a través de,a través
+mountain range	cordillera
+lover	amante
