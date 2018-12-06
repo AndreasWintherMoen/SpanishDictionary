@@ -1,12 +1,15 @@
 FILE_NAME = "dictionary.txt"
 
 def GetDictionaryFromFile():
-    file = open(FILE_NAME, "r")
+    file = open(FILE_NAME, "r", encoding="latin-1")
     dictionary = []
     for line in file:
         words = line.split("\t")
         englishWords = words[0].split(",")
-        spanishWords = words[1].split(",")
+        if "," in words[1]:
+            spanishWords = words[1].split(",")
+        else:
+            spanishWords = [words[1]]
         spanishWords[len(spanishWords)-1] = spanishWords[len(spanishWords)-1].strip("\n")
         dictionary.append([englishWords, spanishWords])
     file.close()
