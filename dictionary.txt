@@ -1,13 +1,13 @@
 chair	silla
-jail	c·rcel
+jail	c√°rcel
 bed	cama
-lamp	l·mpara
+lamp	l√°mpara
 airport	aeropuerto
 car	coche
-to laugh	reÌr
+to laugh	re√≠r
 ankle	tobillo
 peace	paz
-pencil	l·piz
+pencil	l√°piz
 frozen	congelado
 to try	probar,tratar
 elephant	elefante
@@ -27,11 +27,11 @@ to note,to write down	anotar
 to underline	subrayar
 partner	pareja
 landscape	paisaje
-unknown	desconocida
+unknown	desconocida,desconocido
 to understand	entender
 oil	aceite
 wall	pared
-forget	olvidar,to forget
+forget,to forget	olvidar
 neck	cuello
 avoid	evitar
 cute,nice	lindo,linda
@@ -40,8 +40,8 @@ whatever	como sea
 to follow	seguir
 blood	sangre
 both	ambos
-shy	tÌmido,tÌmida
-sentence	oraciÛn
+shy	t√≠mido,t√≠mida
+sentence	oraci√≥n
 kiss	beso
 to draw	dibujar
 to check	comprobar
@@ -62,7 +62,7 @@ to decide	decidir
 noise	ruido
 to digest	digerir
 to show	mostrar
-reason	razÛn
+reason	raz√≥n
 to include	incluir
 neighbour	vecino,vecina
 jungle	selva
@@ -73,7 +73,7 @@ to cook	cocinar
 food	comida,alimento
 to interrupt	interrumpir
 ship	barco
-population	poblaciÛn
+population	poblaci√≥n
 proud	orgulloso,orgullosa
 to increase	aumentar
 to lower	rebajar
@@ -81,15 +81,15 @@ season	temporada
 previous	anterior
 accomodation	alojamiento
 approximately	aproximadamente
-location	ubicaciÛn
+location	ubicaci√≥n
 treasure	tesoro
-after	despuÈs
+after	despu√©s
 building	edificio
 forest	bosque
 wood	madera
 worth it	vale la pena
 to enjoy	disfrutar
 neighbourhood	barrio
-through	a travÈs de,a travÈs
+through	a trav√©s de,a trav√©s
 mountain range	cordillera
 lover	amante
