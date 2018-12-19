@@ -27,13 +27,13 @@ to note,to write down	anotar
 to underline	subrayar
 partner	pareja
 landscape	paisaje
-unknown	desconocida
+unknown	desconocida,desconocido
 to understand	entender
 oil	aceite
 wall	pared
 forget	olvidar,to forget
 neck	cuello
-avoid	evitar
+avoid	evitar,to avoid
 cute,nice	lindo,linda
 bored	aburrido,aburrida
 whatever	como sea
@@ -45,7 +45,7 @@ sentence	oración
 kiss	beso
 to draw	dibujar
 to check	comprobar
-to count	contar,to tell
+to count	contar,to tell,to tell
 to remember	recordar
 border	frontera
 background	fondo
@@ -93,3 +93,12 @@ neighbourhood	barrio
 through	a través de,a través
 mountain range	cordillera
 lover	amante
+apparently	al parecer
+to relax	relajar
+to achieve	lograr,to accomplish
+eventually	eventualmente
+guilty	culpable
+to scream	gritar,to shout
+strong	fuerte
+to put	poner
+to ask	pedir
