@@ -102,3 +102,18 @@ to scream	gritar,to shout
 strong	fuerte
 to put	poner
 to ask	pedir
+to scare	asustar
+pregnant	embarazada
+to heal	sanar,to cure
+embarrassed	desconcertado,desconcertada
+to lose	perdir
+camera	camára
+to turn off	apagar
+to beg	suplicar
+brave	valiente
+mouth	boca
+nun	monja
+monk	monje
+thief	ladrón
+to deserve	merecer
+full	lleno
