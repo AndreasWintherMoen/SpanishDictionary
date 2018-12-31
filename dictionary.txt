@@ -104,7 +104,7 @@ to put	poner
 to ask	pedir
 to scare	asustar
 pregnant	embarazada
-to heal	sanar,to cure
+to heal,to cure	sanar
 embarrassed	desconcertado,desconcertada
 to lose	perdir
 camera	camára
@@ -117,3 +117,17 @@ monk	monje
 thief	ladrón
 to deserve	merecer
 full	lleno
+to risk	arriesgar
+witch	bruja
+to teach	enseñar
+to trust	confiar
+simple	sencillo
+weak	débil
+cage	jaula
+to protect	proteger
+egg	huevo
+to reach	alcanzar
+disgusting	asqueroso,asquerosa
+to fit	caber
+slowly	despacio
+deer	ciervo
