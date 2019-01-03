@@ -131,3 +131,14 @@ disgusting	asqueroso,asquerosa
 to fit	caber
 slowly	despacio
 deer	ciervo
+appetizer	aperetivo
+chaos	caos
+i get it	lo pillo
+to act	actuar
+gift	regalo
+fault	culpa
+to punish	castigar
+punishment	castigo
+nightmare	pesadilla
+expiration	caducidad
+possibility	posibilidad
