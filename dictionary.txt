@@ -1,13 +1,13 @@
 chair	silla
-jail	cárcel
+jail	cÃ¡rcel
 bed	cama
-lamp	lámpara
+lamp	lÃ¡mpara
 airport	aeropuerto
 car	coche
-to laugh	reír
+to laugh	reÃ­r
 ankle	tobillo
 peace	paz
-pencil	lápiz
+pencil	lÃ¡piz
 frozen	congelado
 to try	probar,tratar
 elephant	elefante
@@ -40,8 +40,8 @@ whatever	como sea
 to follow	seguir
 blood	sangre
 both	ambos
-shy	tímido,tímida
-sentence	oración
+shy	tÃ­mido,tÃ­mida
+sentence	oraciÃ³n
 kiss	beso
 to draw	dibujar
 to check	comprobar
@@ -62,7 +62,7 @@ to decide	decidir
 noise	ruido
 to digest	digerir
 to show	mostrar
-reason	razón
+reason	razÃ³n
 to include	incluir
 neighbour	vecino,vecina
 jungle	selva
@@ -73,7 +73,7 @@ to cook	cocinar
 food	comida,alimento
 to interrupt	interrumpir
 ship	barco
-population	población
+population	poblaciÃ³n
 proud	orgulloso,orgullosa
 to increase	aumentar
 to lower	rebajar
@@ -81,16 +81,16 @@ season	temporada
 previous	anterior
 accomodation	alojamiento
 approximately	aproximadamente
-location	ubicación
+location	ubicaciÃ³n
 treasure	tesoro
-after	después
+after	despuÃ©s
 building	edificio
 forest	bosque
 wood	madera
 worth it	vale la pena
 to enjoy	disfrutar
 neighbourhood	barrio
-through	a través de,a través
+through	a travÃ©s de,a travÃ©s
 mountain range	cordillera
 lover	amante
 apparently	al parecer
@@ -107,22 +107,22 @@ pregnant	embarazada
 to heal,to cure	sanar
 embarrassed	desconcertado,desconcertada
 to lose	perdir
-camera	cam�ra
+camera	camára
 to turn off	apagar
 to beg	suplicar
 brave	valiente
 mouth	boca
 nun	monja
 monk	monje
-thief	ladr�n
+thief	ladrón
 to deserve	merecer
 full	lleno
 to risk	arriesgar
 witch	bruja
-to teach	ense�ar
+to teach	enseñar
 to trust	confiar
 simple	sencillo
-weak	d�bil
+weak	débil
 cage	jaula
 to protect	proteger
 egg	huevo
@@ -142,3 +142,14 @@ punishment	castigo
 nightmare	pesadilla
 expiration	caducidad
 possibility	posibilidad
+to cheat	engaÃ±ar
+to deceive	engaÃ±ar
+wish	deseo
+to wish	desear
+leg	pierna
+to give back	devolver
+around	alrededor
+ground	suelo
+quiet	tranquilo,tranquila
+meanwhile	mientras,while
+neither	tampoco
