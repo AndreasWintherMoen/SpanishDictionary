@@ -10,7 +10,7 @@ peace	paz
 pencil	lÃ¡piz
 frozen	congelado
 to try	probar,tratar
-elephant	elefante
+elephant	elefante, test
 bag	bolso
 pants	pantalones
 to smoke	fumar
