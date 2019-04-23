@@ -142,3 +142,10 @@ punishment	castigo
 nightmare	pesadilla
 expiration	caducidad
 possibility	posibilidad
+turkey	pavo
+to fix	arreglar
+light bulb	bombilla
+failure	fracaso
+to fly	volar
+healthy	sano,sana
+carpet	alfombra
