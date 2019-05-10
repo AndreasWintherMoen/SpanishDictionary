@@ -1,13 +1,13 @@
-﻿chair	silla
-jail	cÃ¡rcel
+ï»¿chair	silla
+jail	cÃÂ¡rcel
 bed	cama
-lamp	lÃ¡mpara
+lamp	lÃÂ¡mpara
 airport	aeropuerto
 car	coche
-to laugh	reÃ­r
+to laugh	reÃÂ­r
 ankle	tobillo
 peace	paz
-pencil	lÃ¡piz
+pencil	lÃÂ¡piz
 frozen	congelado
 to try	probar,tratar
 elephant	elefante, test
@@ -40,8 +40,8 @@ whatever	como sea
 to follow	seguir
 blood	sangre
 both	ambos
-shy	tÃ­mido,tÃ­mida
-sentence	oraciÃ³n
+shy	tÃÂ­mido,tÃÂ­mida
+sentence	oraciÃÂ³n
 kiss	beso
 to draw	dibujar
 to check	comprobar
@@ -62,7 +62,7 @@ to decide	decidir
 noise	ruido
 to digest	digerir
 to show	mostrar
-reason	razÃ³n
+reason	razÃÂ³n
 to include	incluir
 neighbour	vecino,vecina
 jungle	selva
@@ -73,7 +73,7 @@ to cook	cocinar
 food	comida,alimento
 to interrupt	interrumpir
 ship	barco
-population	poblaciÃ³n
+population	poblaciÃÂ³n
 proud	orgulloso,orgullosa
 to increase	aumentar
 to lower	rebajar
@@ -81,16 +81,16 @@ season	temporada
 previous	anterior
 accomodation	alojamiento
 approximately	aproximadamente
-location	ubicaciÃ³n
+location	ubicaciÃÂ³n
 treasure	tesoro
-after	despuÃ©s
+after	despuÃÂ©s
 building	edificio
 forest	bosque
 wood	madera
 worth it	vale la pena
 to enjoy	disfrutar
 neighbourhood	barrio
-through	a travÃ©s de,a travÃ©s
+through	a travÃÂ©s de,a travÃÂ©s
 mountain range	cordillera
 lover	amante
 apparently	al parecer
@@ -107,22 +107,22 @@ pregnant	embarazada
 to heal,to cure	sanar
 embarrassed	desconcertado,desconcertada
 to lose	perdir
-camera	camára
+camera	camÃ¡ra
 to turn off	apagar
 to beg	suplicar
 brave	valiente
 mouth	boca
 nun	monja
 monk	monje
-thief	ladrón
+thief	ladrÃ³n
 to deserve	merecer
 full	lleno
 to risk	arriesgar
 witch	bruja
-to teach	enseñar
+to teach	enseÃ±ar
 to trust	confiar
 simple	sencillo
-weak	débil
+weak	dÃ©bil
 cage	jaula
 to protect	proteger
 egg	huevo
@@ -158,3 +158,7 @@ ground	suelo
 quiet	tranquilo,tranquila
 meanwhile	mientras,while
 neither	tampoco
+to collect	recoger,to pick up
+tax	impuesto
+button	botón
+to endure	sobrellegar
