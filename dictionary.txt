@@ -162,3 +162,9 @@ to collect	recoger,to pick up
 tax	impuesto
 button	botÃ³n
 to endure	sobrellegar
+achievement	logro
+youth	juventud
+battle	batalla
+cheek	mejilla
+smile	sonrisa
+to smile	sonreír
